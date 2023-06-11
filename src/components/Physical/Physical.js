@@ -32,9 +32,6 @@ function Physical()
           <button onClick={()=>{navigate("/physicalHealth/physicalDisease")}} className="btn btn-info">Physical Health Disease</button>
           <br></br>
           <br></br>
-          {/* <button onClick={()=>{navigate("/physicalHealth/physicalHealthProblem")}} className="btn btn-info">Physical Disease Solution</button> */}
-          <br></br>
-          <br></br>
           </div>
         <div className="rightDiv">
         <Outlet></Outlet>
